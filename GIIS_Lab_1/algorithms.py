@@ -39,7 +39,6 @@ def bresenham_line(x0, y0, x1, y1):
 
 
 def wu_line(x0, y0, x1, y1):
-    """Реализация алгоритма Ву"""
 
     def fpart(x):
         return x - math.floor(x)
