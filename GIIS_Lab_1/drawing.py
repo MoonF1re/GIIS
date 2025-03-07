@@ -1,5 +1,5 @@
 # Коэффициент размера пикселей
-PIXEL_SIZE = 10
+PIXEL_SIZE = 5
 
 def draw_pixel(canvas, x, y, color="black"):
     canvas.create_rectangle(x * PIXEL_SIZE, y * PIXEL_SIZE,
