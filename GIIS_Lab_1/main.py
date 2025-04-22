@@ -251,7 +251,7 @@ class LineEditor:
         if self.current_mode != "cubic" or not self.cubic_points:
             return
         method = self.current_cubic_method
-        steps = 100  # число точек кривой
+        steps = 200  # число точек кривой
         points = []
         if method == "hermite":
             if len(self.cubic_points) < 3:
